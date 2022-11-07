@@ -1,0 +1,94 @@
+/* CONTACT PAGE */
+.contact-me {
+  margin: 150px 0;
+}
+
+.contact-me h1 {
+  color: rgb(238, 105, 131);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.icons-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 500px;
+}
+
+#icons-ig,
+#icons-linkedin,
+#icons-wa,
+#icons-github {
+  width: 100px;
+  background-color: rgb(238, 105, 131);
+  padding: 20px;
+  border-radius: 32px;
+}
+
+.icons-github {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 350px;
+}
+
+.cek-project {
+  color: rgb(238, 105, 131);
+  margin-top: 175px;
+}
+
+@media only screen and (max-width: 1000px) {
+  * {
+    font-size: 1rem;
+  }
+
+  .contact-me {
+    margin-top: 50px;
+  }
+
+  .icons-contact {
+    margin: 0 100px;
+  }
+
+  #icons-ig,
+  #icons-linkedin,
+  #icons-wa,
+  #icons-github {
+    width: 75px;
+  }
+
+  .cek-project {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  * {
+    font-size: 0.7rem;
+  }
+
+  .contact-me {
+    margin-top: 30px;
+  }
+
+  .icons-contact {
+    margin: 0 50px;
+  }
+
+  #icons-ig,
+  #icons-linkedin,
+  #icons-wa,
+  #icons-github {
+    width: 50px;
+  }
+
+  .cek-project {
+    margin-top: 75px;
+  }
+
+  .icons-github {
+    margin: 0;
+  }
+}

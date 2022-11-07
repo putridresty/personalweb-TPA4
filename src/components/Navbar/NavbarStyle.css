@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px 50px; */
+  /* margin: 10px 350px; */
+}
+
+.navbar-list {
+  display: flex;
+}
+
+.navbar-list li {
+  font-weight: 200;
+  font-size: 17px;
+  /* color: rgb(23, 23, 23); */
+  list-style: none;
+}
+
+.navbar-list li a {
+  color: inherit;
+  padding: 8px 20px;
+  border-radius: 25px;
+}
+
+.navbar-list li a:hover {
+  background-color: rgb(238, 105, 131);
+  color: #fff;
+}
+
+.logo-putri {
+  font-weight: 1000;
+  font-size: 20px;
+  color: rgb(238, 105, 131);
+}
+
+@media only screen and (max-width: 500px) {
+  nav {
+    justify-content: space-around;
+  }
+
+  .logo-putri {
+    font-weight: 800;
+    font-size: 10px;
+  }
+}
