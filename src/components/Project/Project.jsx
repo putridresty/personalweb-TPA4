@@ -7,7 +7,7 @@ const Project = ({ titleproj, url }) => {
     <>
       <div className="card">
         <a href={url}>
-          <img src=".\src\assets\icons\github.svg" alt="" id="icons-github" />
+          <img src="..\src\assets\icons\github.svg" alt="icons-github" id="icons-github" />
           <div className="container">
             <h3>{titleproj}</h3>
           </div>
