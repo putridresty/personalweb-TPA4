@@ -8,7 +8,7 @@ export const Home = () => {
       <section className="introduction">
         <div className="intro-img">
           <img
-            src=".\src\assets\img\putri.png"
+            src="/img/putri.png"
             alt="putriprofil"
             id="putriprofil"
           />
@@ -30,16 +30,16 @@ export const Home = () => {
         <h1>SKILLS</h1>
         <div className="icons-skills">
           <img
-            src="..\src\assets\icons\figma.svg"
+            src="/icons/figma.svg"
             alt="gambar-figma"
             id="icons-figma"
           />
 
-          <img src="..\src\assets\icons\html5.svg" alt="" id="icons-html" />
+          <img src="/icons/html5.svg" alt="" id="icons-html" />
 
-          <img src="..\src\assets\icons\css3-alt.svg" alt="" id="icons-css" />
+          <img src="/icons/css3-alt.svg" alt="" id="icons-css" />
 
-          <img src="..\src\assets\icons\square-js.svg" alt="" id="icons-js" />
+          <img src="/icons/square-js.svg" alt="" id="icons-js" />
         </div>
       </section>
     </div>

@@ -9,7 +9,7 @@ const Contact = () => {
         <div className="icons-contact">
           <a href="https://www.instagram.com/putridresty_/">
             <img
-              src="..\src\assets\icons\instagram.svg"
+              src="/icons/instagram.svg"
               alt="icons-intagram"
               id="icons-ig"
             />
@@ -17,20 +17,20 @@ const Contact = () => {
 
           <a href="https://www.linkedin.com/in/putri-dresty-faristuta-4b4395208/">
             <img
-              src="..\src\assets\icons\linkedin.svg"
+              src="/icons/linkedin.svg"
               alt="icons-linkedin"
               id="icons-linkedin"
             />
           </a>
 
           <a href="">
-            <img src="..\src\assets\icons\whatsapp.svg" alt="icons-whatsapp" id="icons-wa" />
+            <img src="/icons/whatsapp.svg" alt="icons-whatsapp" id="icons-wa" />
           </a>
         </div>
         <h1 className="cek-project">CHECK MY PROJECT ON</h1>
         <div className="icons-github">
           <a href="https://github.com/putridresty">
-            <img src=".\src\assets\icons\github.svg" alt="icons-github" id="icons-github" />
+            <img src="/icons/github.svg" alt="icons-github" id="icons-github" />
           </a>
         </div>
       </section>
